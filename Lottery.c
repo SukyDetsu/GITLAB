@@ -13,7 +13,7 @@ void main()
   while (YourLotteryNo != 0) 
   { 
     won = 0; 
-    for (i=0;i<N && !won; i++) 
+    for (i=0;i<(N-1) && !won; i++) 
     {
        if (YourLotteryNo == WinLotteryNo[i]) 
        {
